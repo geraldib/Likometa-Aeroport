@@ -1,0 +1,145 @@
+html, body {
+    color: #5a5c69;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    /* Full height */
+    height: 100%;
+    width: 100%;
+
+    background: url('../img/landscape.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.transparent-bg{
+    color: white;
+    background-color: rgba(52,58,64,0.46);
+}
+
+.transparent-bg-jumbo{
+    background-color: rgba(52,58,64,0);
+}
+
+.form-background{
+    height: 100%;
+    background: url('../img/landscape.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /* Add the blur effect */
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+
+}
+
+.form-front{
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.booking-form{
+    color: white;
+    border-radius: 4%;
+    padding: 20px;
+    background-color: rgba(52,58,64,0.86);
+    -webkit-box-shadow: -2px 10px 32px 2px rgba(90,92,105,0.26);
+    -moz-box-shadow: -2px 10px 32px 2px rgba(90,92,105,0.26);
+    box-shadow: -2px 10px 32px 2px rgba(90,92,105,0.26);
+}
+.booking-scroller{
+    /* overflow: scroll; */
+    height: calc(100vh - 110px);
+    overflow-y: scroll;
+    max-height: 600px;
+    padding: 20px;
+}
+.booking-scroller::-webkit-scrollbar {
+    width: 6px;
+}
+
+.booking-scroller::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(240, 240, 240, 0.3); 
+    border-radius: 10px;
+}
+
+.booking-scroller::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.842); 
+}
+
+.prenote-title{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.the-info{
+    margin-top: 250px;
+}
+
+.the-title{
+    color: white;
+    font-weight: bold;
+    font-size: 65px;
+}
+
+.the-desc{
+    color: white;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #5a5c69;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.card{
+    background-color: rgb(52,58,64);
+}

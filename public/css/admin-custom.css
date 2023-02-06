@@ -1,0 +1,49 @@
+/* Custom styles by Gerald Ibra */
+
+/* Add New Button */
+#addBtnTxt{
+    color: #0c85d0;
+    text-decoration: none;
+}
+#addBtnTxt:hover {
+    color: #1d68a7;
+}
+#addBtnIcon{
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #0c85d0;
+}
+#addBtnIcon:hover {
+    background-color: #1d68a7;
+}
+
+/* Delete link button */
+
+#deleteBtnIcon{
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #cc0000;
+}
+#deleteBtnIcon:hover {
+    background-color: #761b18;
+}
+
+#ticket-btn{
+    padding: 20px 40px;
+    margin: 30px;
+    border: 1px solid #1e2530;
+    color: #1e2530;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#ticket-btn:hover{
+    background-color: #1e2530;
+    color: white;
+}
